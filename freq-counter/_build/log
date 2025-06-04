@@ -1,0 +1,17 @@
+# dune exec ./_build/default/freq.exe
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/jaroormodi/.local/state/dune/db
+# Workspace root: /home/jaroormodi/projects/ocaml-my-caml/learning-ocaml
+# Auto-detected concurrency: 16
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/jaroormodi/.opam/default/bin/ocamlc.opt -config > /tmp/dune_6f627d_output
+$ (cd /home/jaroormodi/projects/ocaml-my-caml/learning-ocaml && /home/jaroormodi/projects/ocaml-my-caml/learning-ocaml/_build/default/freq.exe)

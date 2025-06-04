@@ -1,0 +1,9 @@
+(library
+ (name counter)
+ (modules Counter)
+ (libraries base))
+
+(executable
+ (name freq)
+ (modules Freq)
+ (libraries base counter stdio))
